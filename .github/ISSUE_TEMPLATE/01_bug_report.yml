@@ -1,0 +1,72 @@
+name: 🐞 Bug Report
+description: Melde einen Fehler, um uns zu helfen, ihn zu beheben.
+title: "[Bug]: "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Danke fürs Melden! Bitte stelle sicher, dass du zuerst nach ähnlichen Bugs gesucht hast.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Beschreibung
+      description: Eine kurze Zusammenfassung, was schief läuft.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Schritte zur Reproduktion
+      description: Wie können wir den Fehler nachstellen? (Schritt-für-Schritt)
+      placeholder: |
+        1. Gehe zu '...'
+        2. Klicke auf '...'
+        3. Scrolle zu '...'
+        4. Fehler tritt auf.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Erwartetes Verhalten
+      description: Was hättest du erwartet, das passiert?
+      placeholder: "Es sollte sich ein Fenster öffnen..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Tatsächliches Verhalten
+      description: Was ist stattdessen passiert?
+      placeholder: "Der Bildschirm blieb weiß."
+    validations:
+      required: true
+
+  - type: input
+    id: os
+    attributes:
+      label: Betriebssystem
+      placeholder: Windows 11, macOS Ventura, iOS 16...
+    validations:
+      required: false
+
+  - type: input
+    id: browser
+    attributes:
+      label: Browser / Version
+      placeholder: Chrome 108, Safari, Firefox...
+    validations:
+      required: false
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots oder Logs
+      description: Bitte füge Beweise an (Drag & Drop funktioniert hier).
+    validations:
+      required: false

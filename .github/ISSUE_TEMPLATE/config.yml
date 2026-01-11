@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Hast du eine Frage?
+    url: https://github.com/andifagiste/LDWM25/discussions
+    about: Bitte stelle Fragen in den Discussions, nicht als Issue.
+  - name: 🔐 Sicherheitslücke melden
+    url: https://example.com/security
+    about: Bitte poste keine Sicherheitslücken öffentlich!
