@@ -36,4 +36,5 @@ Die App ist darauf ausgelegt, Daten lokal zu speichern. Nutzen Sie für Screensh
 ## 🔗 Verwandte Links
 
 * **Haupt-Repository (Code):** [[Mediguide](https://github.com/andifagiste/LDWM25)]
+* **Youtube:** https://www.youtube.com/@mediguideldwm
 * **Dokumentation:** Siehe DMS Ordner "Protokolle" & "Endversionen".
